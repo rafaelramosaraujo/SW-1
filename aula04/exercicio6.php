@@ -1,21 +1,15 @@
 <?php
 
-// 3. Faça um programa PHP que crie duas variáveis e atribua dois valores inteiros.
-// Apresente todas as operações: adição, subtração, divisão, multiplicação e resto
-// da divisão utilizando os operadores de atribuição.
+// 2. Faça um programa PHP que defina uma constante PI com valor 3.141592. Crie
+// uma variável, atribua um valor que represente o raio de uma esfera. Calcule e
+// apresente sua área e seu volume, dados pelas fórmulas:
 
-    $a = 17;
-    $b = 50;
+    define(constant_name: "PI", value: 3.141592 );
+    $r = 5;
+    $area = 4* PI *($r**2);
+    echo "valor da área: $area";
+    $volume = (4/3)* PI *($r**3);
+    echo "<br>valor do volume: $volume";
 
-    $ad = ($a+$b);
-    $sub = ($a-$b);
-    $multi = ($a*$b);
-    $div_resto = ($a % $b);
-
-    echo "$ad";
-    echo "$sub";
-    echo "$multi";
-    echo "$div_resto";
-    
 
 ?>
